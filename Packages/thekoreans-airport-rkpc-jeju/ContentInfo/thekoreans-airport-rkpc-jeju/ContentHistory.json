@@ -1,0 +1,10 @@
+{
+  "package-name": "thekoreans-airport-rkpc-jeju",
+  "items": [
+    {
+      "type": "Airport",
+      "content": "RKPC",
+      "revision": 1
+    }
+  ]
+}
