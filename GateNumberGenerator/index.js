@@ -61,78 +61,69 @@ function writePngAndMaterial(text, filename, svgGeneratorFunction) {
 
 var gate = [
     "1",
-    "4",
-    "5",
-    "8",
+    "1E",
+    "2",
+    "3",
+    "6",
+    "7",
     "9",
     "10",
-    "11",
-    "12",
-    "19",
+    "13",
+    "15",
+    "17",
+    "18",
     "20",
-    "21",
-    "22",
-    "23",
-    "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
+    "30",
     "31",
     "32",
+    "32F",
+    "33",
     "34",
+    "35",
     "36",
     "37",
-    "38",
+    "40",
     "41",
-    "42",
-    "43",
-    "44",
-    "45",
-    "46",
-    "47",
-    "48",
     "51",
-    "51L",
-    "51R",
     "52",
     "53",
-    "53L",
-    "53R",
     "54",
-    "54L",
-    "54R",
     "55",
-    "55L",
-    "55R",
+    "56",
     "57",
-    "58",
-    "58",
-    "58L",
-    "58R",
-    "931",
-    "932",
-    "933"
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
 ];
 
-/*
 gate.forEach(e => {
-    writePng(e, e, getSpotNumberSvg);
+    writePngAndMaterial(e, e, getSpotNumberSvg);
 });
-*/
 
-writePngAndMaterial("↑G10", "UPG10", getBoxTextSvg);
-writePngAndMaterial("↖G11", "ULG11", getBoxTextSvg);
-writePngAndMaterial("↖G10", "ULG10", getBoxTextSvg);
-writePngAndMaterial("↖G8", "ULG8", getBoxTextSvg);
-writePngAndMaterial("↖G7", "ULG7", getBoxTextSvg);
-writePngAndMaterial("G7↗", "G7UR", getBoxTextSvg);
-writePngAndMaterial("G8↗", "G8UR", getBoxTextSvg);
-writePngAndMaterial("G9↗", "G9UR", getBoxTextSvg);
-writePngAndMaterial("G10↗", "G10UR", getBoxTextSvg);
-writePngAndMaterial("G11↑", "G11UP", getBoxTextSvg);
-writePngAndMaterial("↑G7", "UPG7", getBoxTextSvg);
-writePngAndMaterial("R↗", "RUR", getBoxTextSvg);
-writePngAndMaterial("R↑", "RUP", getBoxTextSvg);
-writePngAndMaterial("P↗", "PUR", getBoxTextSvg);
+writePngAndMaterial("G1↗", "G1UR", getBoxTextSvg);
+writePngAndMaterial("↖G1", "ULG1", getBoxTextSvg);
+writePngAndMaterial("G2↗", "G2UR", getBoxTextSvg);
+writePngAndMaterial("↖G2", "ULG2", getBoxTextSvg);
+writePngAndMaterial("G3↗", "G3UR", getBoxTextSvg);
+writePngAndMaterial("↖G3", "ULG3", getBoxTextSvg);
+writePngAndMaterial("G4↗", "G4UR", getBoxTextSvg);
+writePngAndMaterial("↖G4", "ULG4", getBoxTextSvg);
+
+writePngAndMaterial("G1↑", "G1U", getBoxTextSvg);
+writePngAndMaterial("G2↑", "G1U", getBoxTextSvg);
+writePngAndMaterial("G3↑", "G1U", getBoxTextSvg);
+writePngAndMaterial("G4↑", "G1U", getBoxTextSvg);
+
+writePngAndMaterial("←R→", "LRR", getBoxTextSvg);
+writePngAndMaterial("R→", "RR", getBoxTextSvg);
+writePngAndMaterial("←R", "LR", getBoxTextSvg);
