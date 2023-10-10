@@ -106,24 +106,13 @@ var gate = [
     "86",
 ];
 
+/*
 gate.forEach(e => {
     writePngAndMaterial(e, e, getSpotNumberSvg);
 });
-
-writePngAndMaterial("G1↗", "G1UR", getBoxTextSvg);
-writePngAndMaterial("↖G1", "ULG1", getBoxTextSvg);
-writePngAndMaterial("G2↗", "G2UR", getBoxTextSvg);
-writePngAndMaterial("↖G2", "ULG2", getBoxTextSvg);
-writePngAndMaterial("G3↗", "G3UR", getBoxTextSvg);
-writePngAndMaterial("↖G3", "ULG3", getBoxTextSvg);
-writePngAndMaterial("G4↗", "G4UR", getBoxTextSvg);
-writePngAndMaterial("↖G4", "ULG4", getBoxTextSvg);
+*/
 
 writePngAndMaterial("G1↑", "G1U", getBoxTextSvg);
-writePngAndMaterial("G2↑", "G1U", getBoxTextSvg);
-writePngAndMaterial("G3↑", "G1U", getBoxTextSvg);
-writePngAndMaterial("G4↑", "G1U", getBoxTextSvg);
-
-writePngAndMaterial("←R→", "LRR", getBoxTextSvg);
-writePngAndMaterial("R→", "RR", getBoxTextSvg);
-writePngAndMaterial("←R", "LR", getBoxTextSvg);
+writePngAndMaterial("G2↑", "G2U", getBoxTextSvg);
+writePngAndMaterial("G3↑", "G3U", getBoxTextSvg);
+writePngAndMaterial("G4↑", "G4U", getBoxTextSvg);
