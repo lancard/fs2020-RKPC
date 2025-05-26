@@ -1,0 +1,5 @@
+_PackageInt/
+PackagesMetadata/
+*.blend1
+node_modules/
+GateNumberGenerator/output
